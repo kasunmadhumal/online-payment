@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.uok.onlinepayment.OnlinePaymentApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-03T11:31:15" hostname="kasun-GF63-Thin-9SC" time="0.696">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.uok.onlinepayment.OnlinePaymentApplicationTests" time="0.696"/>
+  <system-out><![CDATA[17:01:13.049 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.uok.onlinepayment.OnlinePaymentApplicationTests]: OnlinePaymentApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:01:13.116 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.uok.onlinepayment.OnlinePaymentApplication for test class com.uok.onlinepayment.OnlinePaymentApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-10-03T17:01:13.444+05:30  INFO 429975 --- [    Test worker] c.u.o.OnlinePaymentApplicationTests      : Starting OnlinePaymentApplicationTests using Java 17.0.6 with PID 429975 (started by kasun in /home/kasun/Downloads/Compressed/online-payment)
+2023-10-03T17:01:13.445+05:30  INFO 429975 --- [    Test worker] c.u.o.OnlinePaymentApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T17:01:13.981+05:30  INFO 429975 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-03T17:01:13.994+05:30  INFO 429975 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-10-03T17:01:14.325+05:30  INFO 429975 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-03T17:01:14.483+05:30  INFO 429975 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a441a420-fabb-4a91-8064-d8a92f83163f user=SA
+2023-10-03T17:01:14.484+05:30  INFO 429975 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-03T17:01:14.520+05:30  INFO 429975 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-03T17:01:14.556+05:30  INFO 429975 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-03T17:01:14.557+05:30  INFO 429975 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-03T17:01:14.652+05:30  INFO 429975 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T17:01:14.765+05:30  INFO 429975 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-03T17:01:14.854+05:30  INFO 429975 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T17:01:14.990+05:30  INFO 429975 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-03T17:01:14.994+05:30  INFO 429975 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T17:01:15.094+05:30  WARN 429975 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-03T17:01:15.430+05:30  INFO 429975 --- [    Test worker] AbstractAzureServiceClientBuilderFactory : Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2023-10-03T17:01:15.617+05:30  INFO 429975 --- [    Test worker] c.u.o.OnlinePaymentApplicationTests      : Started OnlinePaymentApplicationTests in 2.396 seconds (process running for 3.259)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

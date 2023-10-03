@@ -1,8 +1,13 @@
-FROM openjdk:17-alpine
+FROM eclipse-temurin:17-jre-alpine
 
-EXPOSE 8085
+# Copy the Gradle build files and the Spring Boot application jar file into the container
+COPY build/libs/*.jar /app/application.jar
 
-COPY ./build/libs/my-app-1.0-SNAPSHOT.jar /usr/app/
-WORKDIR /usr/app
+# Set the working directory to the application directory
+WORKDIR /app
 
-ENTRYPOINT ["java", "-jar", "my-app-1.0-SNAPSHOT.jar"]
+# Expose port 8080
+EXPOSE 8080
+
+# Run the Spring Boot application
+ENTRYPOINT ["java", "-jar", "application.jar"]
